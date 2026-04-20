@@ -1,0 +1,35 @@
+body{
+    height: 150vh
+}
+
+.title{
+    background-color: red;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.title2{
+    background-color: purple;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 50;
+
+}
+
+.parent{
+    height: 200px;
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+
+.child{
+    width: 64px;
+    height: 64px;
+    background-color: green;
+    position: absolute;
+    
+}
+

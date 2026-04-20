@@ -1,0 +1,31 @@
+.title{
+    font-size: 52px;
+}
+
+.paragraph{
+    font-size: 24px;
+}
+
+/* media query */
+
+@media (max-width: 640px) {
+    .title{
+    font-size: 36px;
+}
+
+.paragraph{
+    font-size: 24px;
+}
+
+}
+
+@media (max-width: 480px) {
+    .title{
+    font-size: 32px;
+}
+
+.paragraph{
+    font-size: 16px;
+}
+
+}

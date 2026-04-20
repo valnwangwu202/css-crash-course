@@ -1,0 +1,33 @@
+button {
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: red;
+  opacity: 30%;
+  padding: 4px;
+}
+
+.Name::after {
+  content: " is my Name";
+  background-color: red;
+  margin: 8px;
+}
+
+p {
+ 
+  animation: pointdown 500ms infinite alternate-reverse;
+
+}
+
+@keyframes pointdown {
+  0% {
+    /*  translate(Moves Right,Moves Down) */
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(16px);
+  }
+}
+
